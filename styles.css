@@ -14,12 +14,12 @@ header{
     justify-content: space-around;
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: rgb(67, 12, 92);
 }
 nav{
-    width: 900px;
-    height: 150px;
+    width: 800px;
+    height: 100px;
     display: flex;
     box-align: center;
     align-items: center;
@@ -27,84 +27,80 @@ nav{
     margin: auto;
 }
 #h1{
-    font-size: 70px;
+    font-size: 60px;
     position: relative;
     color: white;
     font-style: halant;
-    top: 3px;
 }
 #categorias{
     position: relative;
-    top: 2px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 #peliculas{
     position: relative;
-    top: 2px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 #series{
     position: relative;
-    top: 2px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 #buscar{
     position: relative;
     top: 2px;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
 }
 #cuerpo{
     box-sizing: content-box;
-    padding: 40px;
+    padding: 20px;
     margin: auto;
     align-self: center;
-    width: 900px;
+    width: 800px;
     background-color: rgba(61, 20, 77, 0.226);
 }
 h1{
     color: white;
-    margin-top: 10px;
-    font-size: 70px;
+    margin-top: 5px;
+    font-size: 60px;
 }
 #pelicula{
     float: left;;
-    width: 480px;
+    width: 400px;
 }
 p{
     float: left;
     margin-left: 30px;
     margin-top: 10px;
     color:white;
-    font-size: 25px;
+    font-size: 20px;
 }
 #estrellas{
     float: left;
-    width: 300px;
-    margin-left: 90px;
+    width: 200px;
+    margin-left: 110px;
     margin-top: 100px;
 }
 h2{
     float: left;
     color: white;
-    margin-left: 165px;
+    margin-left: 140px;
     margin-top: 90px;
     font-size: 30px;
 }
 #plataforma{
     width: 200px;
-    margin-left: 135px;
+    margin-left: 110px;
 }
 #sinopsis{
-    margin-top: 100px;
+    margin-top: 10px;
     float: none;
-    width: 900px;
+    width: 800px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 #sinopsis > h3{
     font-size: 40px;
@@ -120,18 +116,100 @@ h3{
 }
 #trailer > div{
     margin: auto;
-    width: 870px;
-    height: 450px;
+    width: 750px;
+    height: 400px;
     background-color: antiquewhite;
 }
 #comentarios > div{
     margin: auto;
-    height: 870px;
-    width: 870px;
+    height: 700px;
+    width: 750px;
     background-color: antiquewhite;
 }
 footer{
     background-color: rgb(67, 12, 92);
     width: 100%;
-    height: 300px;
+    height: 200px;
+}
+@media (max-width: 800px) {
+    header{
+        height: 90px;
+    }
+    nav{
+        height: 90px;
+        width: 350px;
+    }
+    #h1{
+        font-size: 30px;
+    }
+    #categorias{
+        font-size: 10px;
+    }
+    #cuerpo{
+        width: 350px;
+    }
+    #peliculas{
+        font-size: 10px;
+    }
+    #series{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #pelicula{
+        width: 200px;
+    }
+    p{
+        margin: 5px;
+        font-size: 9px;
+    }
+    #estrellas{
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 90px;
+    } 
+    h2{
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    #plataforma{
+        width: 100px;
+        margin-top: 150px;
+        margin-left: -125px;
+    }
+    #sinopsis{
+        margin-top: -20px;
+        float: none;
+        width: 350px;
+        font-size: 9px;
+    }
+    #sinopsis > h3{
+        font-size: 20px;
+        margin: 5px;
+        margin-top: 80px;
+    }
+    h3{
+        color: white;
+        font-size: 20px;
+        margin: 5px;;
+    }
+    #trailer > div{
+        margin: auto;
+        width: 300px;
+        height: 150px;
+        background-color: antiquewhite;
+    }
+    #comentarios > div{
+        margin: auto;
+        height: 300px;
+        width: 300px;
+        background-color: antiquewhite;
+    }
+    footer{
+        background-color: rgb(67, 12, 92);
+        width: 100%;
+        height: 100px;
+    }
 }
