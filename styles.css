@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto", sans-serif;
     color: rgb(137, 133, 145);
 }
 body{
@@ -99,11 +99,16 @@ h2{
     margin-top: 60px;
     display: block;
 }
+#plataforma:hover{
+    width: 300px;
+    margin-top: 40px;
+}
 #sinopsis{
     margin-top: 10px;
     float: none;
     width: 800px;
     font-size: 20px;
+    text-align: justify;
 }
 #sinopsis > h3{
     font-size: 40px;
@@ -180,7 +185,7 @@ footer{
     }
     p{
         margin: 4px;
-        font-size: 8px;
+        font-size: 10px;
     }
     #estrellas{
         width: 90px;
@@ -195,7 +200,7 @@ footer{
     #sinopsis{
         float: none;
         width: 350px;
-        font-size: 8px;
+        font-size: 12px;
     }
     h3{
         font-size: 20px;
